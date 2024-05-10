@@ -955,10 +955,10 @@ are-we-there-yet@~1.1.2:
     delegates "^1.0.0"
     readable-stream "^2.0.6"
 
-argon2@^0.27.2:
-  version "0.27.2"
-  resolved "https://registry.yarnpkg.com/argon2/-/argon2-0.27.2.tgz#f334ca15aee748739ac81f76b85d197841e8cdcc"
-  integrity sha512-evnzS/Q9rj6ahaaCJjLDoJo9ZuXHhVL2BrBz3wFHb5/i9zAJovBuIY+5t2En7tJjhFXs4O3rUZDeGZxBiDOLwQ==
+argon2@^0.28.2:
+  version "0.28.2"
+  resolved "https://registry.yarnpkg.com/argon2/-/argon2-0.28.2.tgz#b583e4ef5b052a83bfe146752844b9fa526dba29"
+  integrity sha512-8oRk3kPlL0lLletENzhpbF9zoZJqvIHwTkjBseMrg1uD4gBMqhqnjJz1z3lEtwT0oqQAEkEwsEpsjaQBBRHcWw==
   dependencies:
     "@mapbox/node-pre-gyp" "^1.0.1"
     "@phc/format" "^1.0.0"
@@ -4087,14 +4087,14 @@ pg-connection-string@2.4.0:
   resolved "https://registry.yarnpkg.com/pg-connection-string/-/pg-connection-string-2.4.0.tgz#c979922eb47832999a204da5dbe1ebf2341b6a10"
   integrity sha512-3iBXuv7XKvxeMrIgym7njT+HlZkwZqqGX4Bu9cci8xHZNT+Um1gWKqCsAzcC0d95rcKMU5WBg6YRUcHyV0HZKQ==
 
-phc-argon2@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/phc-argon2/-/phc-argon2-1.1.1.tgz#565b9de5289905a4f030f0f3944ef832a92ff485"
-  integrity sha512-UBFG+AsK5IzD0xZOEOplUyZibtRsaC97OxH/4+2Ai55IUONDi6NnELwis4jt8+CEjNBoemcY5273n4l+jNa1Rg==
+phc-argon2@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/phc-argon2/-/phc-argon2-1.1.2.tgz#aa3f0fb9301a8322c81577d8a37fbb287adbb3e6"
+  integrity sha512-R+1G4/lZHPQrLKiYBSio7xhU0vhfP5mxLYJBuWWiGAtynorRM4QtQGZcvnT4BTaRZOUaCaqlR4PC8cBrQmxZ3A==
   dependencies:
     "@kdf/salt" "^2.0.1"
     "@phc/format" "^1.0.0"
-    argon2 "^0.27.2"
+    argon2 "^0.28.2"
     tsse "^2.0.0"
 
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3, picomatch@^2.3.0:

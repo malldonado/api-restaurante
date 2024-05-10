@@ -1,6 +1,6 @@
-import User from 'App/Models/User'
 import Hash from '@ioc:Adonis/Core/Hash'
 import Database from '@ioc:Adonis/Lucid/Database'
+import User from 'App/Models/User'
 import { UserFactory } from 'Database/factories'
 import test from 'japa'
 import supertest from 'supertest'
@@ -203,6 +203,10 @@ test.group('User', (group) => {
 
     token = body.token.token
     user = newUser
+  })
+
+  group.after(async () => {
+    await supertest(BASE_URL).delete('/sessions').set('Authorization', `Bearer ${token}`)
   })
 
   group.beforeEach(async () => {
