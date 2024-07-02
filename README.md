@@ -34,8 +34,8 @@ Welcome to the Restaurant API This API allows you to manage your virtual tavern 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/restaurant-api-Table.git
-    cd restaurant-api-Table
+    git clone https://github.com/malldonado/api-restaurante.git
+    cd roleplay
     ```
 
 2. **Install dependencies:**
