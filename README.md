@@ -1,8 +1,8 @@
-# 🥕 Restaurant API for RPG
+# 🥕 Restaurant API for Table
 
 ## Overview
 
-Welcome to the Restaurant API for RPG! This API allows you to manage your virtual tavern seamlessly with AdonisJS 5 and TypeScript, featuring robust table management functionalities. For development, we utilize SQLite3, while MySQL is used for production. Additionally, the API is designed with Test-Driven Development (TDD) options to ensure reliable and maintainable code.
+Welcome to the Restaurant API for Table! This API allows you to manage your virtual tavern seamlessly with AdonisJS 5 and TypeScript, featuring robust table management functionalities. For development, we utilize SQLite3, while MySQL is used for production. Additionally, the API is designed with Test-Driven Development (TDD) options to ensure reliable and maintainable code.
 
 ## Features
 
@@ -34,8 +34,8 @@ Welcome to the Restaurant API for RPG! This API allows you to manage your virtua
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/restaurant-api-rpg.git
-    cd restaurant-api-rpg
+    git clone https://github.com/yourusername/restaurant-api-Table.git
+    cd restaurant-api-Table
     ```
 
 2. **Install dependencies:**
