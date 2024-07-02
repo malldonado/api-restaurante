@@ -35,7 +35,7 @@ Welcome to the Restaurant API This API allows you to manage your virtual tavern 
 
     ```bash
     git clone https://github.com/malldonado/api-restaurante.git
-    cd roleplay
+    cd roleplay-api
     ```
 
 2. **Install dependencies:**
