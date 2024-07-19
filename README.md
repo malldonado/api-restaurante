@@ -92,48 +92,6 @@ npm run test
 yarn test
 ```
 
-## API Endpoints
-
-### Tables
-
-- `GET /tables`: Retrieve a list of all tables.
-- `POST /tables`: Create a new table.
-- `GET /tables/:id`: Retrieve a single table by ID.
-- `PUT /tables/:id`: Update a table by ID.
-- `DELETE /tables/:id`: Delete a table by ID.
-
-## Database Configuration
-
-### Development
-
-For development, we use SQLite3. The configuration is set in the `.env` file:
-
-```dotenv
-DB_CONNECTION=sqlite
-SQLITE_FILENAME=./db.sqlite3
-```
-
-## Production
-
-For production, we use MySQL. Update the `.env` file with your MySQL credentials:
-
-```env
-DB_CONNECTION=mysql
-MYSQL_HOST=127.0.0.1
-MYSQL_PORT=3306
-MYSQL_USER=root
-MYSQL_PASSWORD=your_mysql_password
-MYSQL_DB_NAME=restaurant
-```
-
-# Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-foo`).
-3. Commit your changes (`git commit -am 'Add foo feature'`).
-4. Push to the branch (`git push origin feature-foo`).
-5. Create a new Pull Request.
-
 # License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
